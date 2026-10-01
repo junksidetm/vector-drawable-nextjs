@@ -159,3 +159,12 @@ Strict Append Pattern: All updates are permanently appended to the bottom.
 - **Files Modified**:
   - `Version.md`
 - **Status**: 100% (Released & Deployed)
+
+## [2026-10-01 16:30:00 IST] - Upstream Sync & Release Policy Mandate
+- **Action**: Formalized the mandatory upstream synchronization, conflict analysis, and automated release policy for this fork repository.
+- **Upstream Sync & Release Policy**:
+  - Whenever there is a new release or code updates in the original upstream repository (`seanghay/vector-drawable-nextjs`), we analyze the changes and check whether they conflict with any of our custom modifications.
+  - If no unresolvable conflicts exist, we synchronize the upstream updates, ensure all our custom modifications are preserved and active (side-by-side live XML editor, real-time SVG preview, mobile adaptive segmented controls, always-on word wrap, SSR decoupling, GitHub Pages deployment), verify static export integrity, and trigger/push a new release and deployment via GitHub Actions CI/CD.
+- **Files Modified**:
+  - `Version.md`
+- **Status**: 100% (Policy Documented & Enforced)
