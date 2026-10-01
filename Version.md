@@ -136,3 +136,16 @@ Strict Append Pattern: All updates are permanently appended to the bottom.
     - Added live demo shield badge, deploy workflow status badge, and tech stack tags.
   - `Version.md`
 - **Verification**: Verified via git status, diff inspection, and remote CI/CD deployment pipeline.
+
+## [2026-09-27 12:00:00 IST] - Codeberg Remote & Deployment Pipeline Alignment
+- **Action:** Integrated Codeberg remote (`codeberg.org/mrdarksidetm/vector-drawable-nextjs`) and aligned SSH signature verification.
+- **Changes:**
+  - **Remote Architecture:** Configured `codeberg` remote `git@codeberg.org:mrdarksidetm/vector-drawable-nextjs.git`.
+- **Status:** 100% (Configured).
+
+## [2026-10-01 12:47:00 IST] - README Documentation GitHub Links Migration
+- **Action**: Updated README.md documentation links, badges, and author references to point to active GitHub account `junksidetm` while preserving GitLab and Codeberg mappings.
+- **Files Modified**:
+  - `README.md`
+  - `Version.md`
+- **Status**: 100% (Completed & Synced)

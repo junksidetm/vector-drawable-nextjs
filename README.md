@@ -3,10 +3,10 @@
   <h1>VectorDrawable to SVG Converter</h1>
   <p><b>Real-time side-by-side Android Vector Drawable XML editor & live SVG preview</b></p>
   <p>
-    <a href="https://mrdarksidetm.github.io/vector-drawable-nextjs/"><img src="https://img.shields.io/badge/🚀_Live_Demo-GitHub_Pages-269bff?style=for-the-badge&logo=github" alt="Live Demo on GitHub Pages" /></a>
+    <a href="https://junksidetm.github.io/vector-drawable-nextjs/"><img src="https://img.shields.io/badge/🚀_Live_Demo-GitHub_Pages-269bff?style=for-the-badge&logo=github" alt="Live Demo on GitHub Pages" /></a>
   </p>
   <p>
-    <a href="https://github.com/mrdarksidetm/vector-drawable-nextjs/actions/workflows/deploy.yml"><img src="https://github.com/mrdarksidetm/vector-drawable-nextjs/actions/workflows/deploy.yml/badge.svg" alt="Deploy to GitHub Pages" /></a>
+    <a href="https://github.com/junksidetm/vector-drawable-nextjs/actions/workflows/deploy.yml"><img src="https://github.com/junksidetm/vector-drawable-nextjs/actions/workflows/deploy.yml/badge.svg" alt="Deploy to GitHub Pages" /></a>
     <img src="https://img.shields.io/badge/Next.js-13.1.6-black?style=flat-square&logo=nextdotjs" alt="Next.js" />
     <img src="https://img.shields.io/badge/React-18.2.0-blue?style=flat-square&logo=react" alt="React" />
     <img src="https://img.shields.io/badge/CodeMirror-6-darkgreen?style=flat-square" alt="CodeMirror 6" />
