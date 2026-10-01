@@ -149,3 +149,13 @@ Strict Append Pattern: All updates are permanently appended to the bottom.
   - `README.md`
   - `Version.md`
 - **Status**: 100% (Completed & Synced)
+
+## [2026-10-01 16:00:00 IST] - Official v0.1.0 Web Studio Release & GitHub Website Alignment
+- **Action**: Released official version `v0.1.0` of the Android VectorDrawable Live Preview & Web Studio deployed on GitHub Pages.
+- **Changes**:
+  - **Live Website Alignment:** Aligned repository homepage URL to live GitHub Pages production site `https://junksidetm.github.io/vector-drawable-nextjs/`.
+  - **Release Architecture:** Published GitHub Release `v0.1.0` highlighting side-by-side live XML editor, real-time SVG preview, mobile adaptive segmented controls, always-on word wrap, and offline static export.
+  - **Verification:** Live static export validated on GitHub Pages runner; responsive layouts verified across mobile, tablet, and desktop viewports.
+- **Files Modified**:
+  - `Version.md`
+- **Status**: 100% (Released & Deployed)
