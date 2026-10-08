@@ -6,6 +6,9 @@
     <a href="https://junksidetm.github.io/vector-drawable-nextjs/"><img src="https://img.shields.io/badge/🚀_Live_Demo-GitHub_Pages-269bff?style=for-the-badge&logo=github" alt="Live Demo on GitHub Pages" /></a>
   </p>
   <p>
+    <a href="https://github.com/junksidetm/vector-drawable-nextjs"><img src="https://img.shields.io/badge/GitHub-Main-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub Main" /></a>
+    <a href="https://codeberg.org/mrdarksidetm/vector-drawable-nextjs"><img src="https://img.shields.io/badge/Codeberg-Mirror-2185d0?style=flat-square&logo=codeberg&logoColor=white" alt="Codeberg Mirror" /></a>
+    <a href="https://gitlab.com/mrdarksidetm/vector-drawable-nextjs"><img src="https://img.shields.io/badge/GitLab-Mirror-fc6d26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab Mirror" /></a>
     <a href="https://github.com/junksidetm/vector-drawable-nextjs/actions/workflows/deploy.yml"><img src="https://github.com/junksidetm/vector-drawable-nextjs/actions/workflows/deploy.yml/badge.svg" alt="Deploy to GitHub Pages" /></a>
     <img src="https://img.shields.io/badge/Next.js-13.1.6-black?style=flat-square&logo=nextdotjs" alt="Next.js" />
     <img src="https://img.shields.io/badge/React-18.2.0-blue?style=flat-square&logo=react" alt="React" />
@@ -103,6 +106,15 @@ Static export bundle is output to `./out` ready for deployment to GitHub Pages, 
 ```shell
 docker compose up -d
 ```
+
+---
+
+## 🌐 Source Mirrors
+
+- **Main (GitHub)**: [github.com/junksidetm/vector-drawable-nextjs](https://github.com/junksidetm/vector-drawable-nextjs)
+- **Mirror (Codeberg)**: [codeberg.org/mrdarksidetm/vector-drawable-nextjs](https://codeberg.org/mrdarksidetm/vector-drawable-nextjs)
+- **Mirror (GitLab)**: [gitlab.com/mrdarksidetm/vector-drawable-nextjs](https://gitlab.com/mrdarksidetm/vector-drawable-nextjs)
+- **Upstream Source**: [github.com/seanghay/vector-drawable-nextjs](https://github.com/seanghay/vector-drawable-nextjs)
 
 ---
 
