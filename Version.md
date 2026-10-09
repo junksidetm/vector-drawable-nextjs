@@ -183,3 +183,10 @@ Strict Append Pattern: All updates are permanently appended to the bottom.
   - `.forgejo/workflows/pages.yml`: Forgejo Actions workflow deploying Next.js export to Codeberg `pages` branch.
   - `Version.md`: Appended tracking entry.
 - **Status**: 100% (Completed & Synced)
+
+## [2026-10-09 22:05:00 IST] - Live Demo Badge URL Normalization
+- **Action**: Cleaned double trailing slash in live demo website badge URL in README.md.
+- **Files Modified**:
+  - `README.md`: Normalized GitHub Pages live demo link.
+  - `Version.md`: Appended tracking entry.
+- **Status**: 100% (Completed)

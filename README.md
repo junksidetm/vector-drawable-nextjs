@@ -1,10 +1,7 @@
 <div align="center">
   <img width="80" height="80" src="public/apple-touch-icon.png" alt="VectorDrawable to SVG" />
   <h1>VectorDrawable to SVG Converter</h1>
-  <p><b>Real-time side-by-side Android Vector Drawable XML editor & live SVG preview</b></p>
-  <p>
-    <a href="https://junksidetm.github.io/vector-drawable-nextjs/"><img src="https://img.shields.io/badge/🚀_Live_Demo-GitHub_Pages-269bff?style=for-the-badge&logo=github" alt="Live Demo on GitHub Pages" /></a>
-  </p>
+
   <p>
     <a href="https://github.com/junksidetm/vector-drawable-nextjs"><img src="https://img.shields.io/badge/GitHub-Main-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub Main" /></a>
     <a href="https://codeberg.org/mrdarksidetm/vector-drawable-nextjs"><img src="https://img.shields.io/badge/Codeberg-Mirror-2185d0?style=flat-square&logo=codeberg&logoColor=white" alt="Codeberg Mirror" /></a>
@@ -16,6 +13,15 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT" /></a>
   </p>
 </div>
+
+  <p><b>Real-time side-by-side Android Vector Drawable XML editor & live SVG preview.</b><br>It can create SVG to Android Vector Drawable XMLs and Vice Versa instantly. Click on the button below to try it out.</p>
+
+<div align="center">
+  <a href="https://junksidetm.github.io/vector-drawable-nextjs/" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/junksidetm/assests/2059cd31ecfc7cd57fab1d30a4baa11810783b48/Images/badges/SVG%20-%20Version/Website%20Badge.svg" alt="Live Demo on GitHub Pages" width="190">
+  </a>
+</div>
+
 
 ---
 
