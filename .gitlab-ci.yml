@@ -1,0 +1,16 @@
+image: node:22-alpine
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    - npm ci
+    - npm run build
+    - mv out public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
