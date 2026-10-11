@@ -215,3 +215,10 @@ Strict Append Pattern: All updates are permanently appended to the bottom.
   - `styles/globals.css`: Updated .codeium-site-footer and .footer-container to full width with 80rem max-width and edge-to-edge padding.
   - `Version.md`: Appended tracking entry.
 - **Status**: 100% (Completed & Synced)
+
+## [2026-10-11 19:06:00 IST] - Glow Removal & Neutral Dark Surface Alignment
+- **Action**: Removed purple halo and glow effects from the footer section to seamlessly match the application's clean dark/black surface (`#1f1f1f`).
+- **Changes**:
+  - `components/CodeiumFooter.js`: Removed purple `.codeium-skyline-halo` element.
+  - `styles/globals.css`: Disabled `.codeium-skyline-halo`, removed `filter: drop-shadow` on skyline SVG and banner, aligned footer background to `var(--vd-color-surface, #1f1f1f)`, and converted purple borders/accents to neutral clean highlights (`rgba(255, 255, 255, 0.08)`).
+- **Status**: 100% (Completed)

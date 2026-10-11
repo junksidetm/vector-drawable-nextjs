@@ -5,7 +5,6 @@ export default function CodeiumFooter() {
 		<>
 			{/* Codeium 3D Isometric Skyline Vector */}
 			<section className="codeium-skyline-wrapper" aria-hidden="true">
-				<div className="codeium-skyline-halo"></div>
 				<div className="codeium-skyline-img-box">
 					<img
 						src="https://junksidetm.github.io/Codeium%20-%20Footer%20SVG.svg"
