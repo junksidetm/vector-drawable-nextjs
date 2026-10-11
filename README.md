@@ -18,7 +18,7 @@
 
 <div align="center">
   <a href="https://junksidetm.github.io/vector-drawable-nextjs/" target="_blank" rel="noopener noreferrer">
-    <img src="https://raw.githubusercontent.com/junksidetm/assests/2059cd31ecfc7cd57fab1d30a4baa11810783b48/Images/badges/SVG%20-%20Version/Website%20Badge.svg" alt="Live Demo on GitHub Pages" width="190">
+    <img src="https://raw.githubusercontent.com/junksidetm/assests/2059cd31ecfc7cd57fab1d30a4baa11810783b48/Images/badges/SVG%20-%20Version/Website%20Badge.svg" alt="Live Demo on GitHub Pages" width="300">
   </a>
 </div>
 

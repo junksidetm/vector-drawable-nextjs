@@ -9,6 +9,7 @@ import GitHubButton from 'react-github-btn';
 import { xml } from '@codemirror/lang-xml';
 import { EditorView } from '@codemirror/view';
 import { vscodeDark } from '@uiw/codemirror-theme-vscode';
+import CodeiumFooter from '../components/CodeiumFooter';
 
 const CodeMirror = dynamic(() => import('@uiw/react-codemirror'), {
 	ssr: false,
@@ -579,6 +580,7 @@ export default function Home() {
 					</div>
 				</footer>
 			</div>
+			<CodeiumFooter />
 			</main>
 		</>
 	);
