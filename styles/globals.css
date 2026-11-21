@@ -1341,3 +1341,53 @@ button:not(:disabled):active {
     gap: 8px;
   }
 }
+
+
+/* Bidirectional Conversion & Action Grid */
+.vd-action-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	margin-top: 14px;
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+	.vd-action-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.vd-btn-xml {
+	background: #10b981;
+}
+
+.vd-btn-xml:not(:disabled):hover {
+	background: #059669;
+}
+
+.vd-btn-swap {
+	color: #38bdf8;
+	border-color: rgba(56, 189, 248, 0.3);
+	background: rgba(56, 189, 248, 0.08);
+}
+
+.vd-btn-swap:hover {
+	background: rgba(56, 189, 248, 0.18);
+	border-color: #38bdf8;
+	color: #fff;
+}
+
+.vd-toast-indicator {
+	margin-top: 16px;
+	padding: 8px 16px;
+	border-radius: 20px;
+	background: rgba(46, 213, 115, 0.12);
+	border: 1px solid rgba(46, 213, 115, 0.3);
+	color: #2ed573;
+	font-size: 0.88em;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}

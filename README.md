@@ -65,21 +65,26 @@ All credits for the core conversion parser and original sleek design language be
 * 1-tap clipboard copy with animated visual confirmation.
 * Normalized 24px GitHub vector logo with smooth hover scale and credits pills.
 
-### 6. 📋 One-Click SVG Markup Copy & Download
-* Instant "Copy SVG" button copies clean SVG code directly to your clipboard.
-* "Download" button saves the transformed SVG file directly to your disk.
+### 6. 🔄 Live Bidirectional Conversion (SVG ⇄ Android Vector XML)
+* **Auto-Detecting Upload & Dropzone:** Accepts both `.svg` and `.xml` files. Dropping an SVG converts it to Android Vector XML on the fly; dropping Vector XML converts it to SVG with instant live preview.
+* **Vice-Versa Swap:** 1-click `⇄ Vice-Versa` button swaps conversion directions and formats live in the editor.
+* **Dual-Format Export:** Instant `Download SVG`, `Download XML`, `Copy SVG Code`, and `Copy Vector XML` actions.
 
-### 7. 🧪 One-Click Sample Loader & File Drag-and-Drop
-* Built-in Android Vector Drawable sample loader for immediate testing.
-* Full drag-and-drop and file picker support populates both the editor and the preview instantly.
+### 7. 📋 One-Click Markup Copy & Download
+* Instant "Copy SVG" and "Copy Vector XML" buttons copy clean code directly to your clipboard.
+* Dedicated "Download SVG" and "Download XML" buttons save your assets directly to disk.
 
-### 8. 🎨 Enhanced Preview Background Modes
+### 8. 🧪 One-Click Sample Loader & File Drag-and-Drop
+* Built-in Vector Drawable and SVG sample loaders for immediate testing.
+* Full drag-and-drop and file picker support populating both the editor and the preview instantly.
+
+### 9. 🎨 Enhanced Preview Background Modes
 * Switch between **Dark**, **Grid / Checkerboard** (for transparent path inspection), and **Light** backgrounds to test vectors with any fill or stroke color.
 
-### 9. 🏷️ Android Resource Overrides Support
+### 10. 🏷️ Android Resource Overrides Support
 * Expandable resource override editor allowing you to resolve Android resource references such as `@color/accent` and `@dimen/size`.
 
-### 10. 🌐 Automated GitHub Pages CI/CD
+### 11. 🌐 Automated GitHub Pages CI/CD
 * Zero-configuration deployment via GitHub Actions (`.github/workflows/deploy.yml`) building static exports and publishing to GitHub Pages on every push to `main`.
 
 ---

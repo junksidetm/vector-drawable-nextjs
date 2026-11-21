@@ -230,3 +230,73 @@ Strict Append Pattern: All updates are permanently appended to the bottom.
   - `styles/globals.css`: Added styles for `.footer-mirrors-bar`, `.mirror-buttons-group`, and `.mirror-btn`, rebalanced `.footer-grid` to 4 clean sitemap columns, and added responsive mobile wrapping.
   - `Version.md`: Appended tracking entry.
 - **Status**: 100% (Completed)
+
+## [2026-10-21 00:30:00 IST] - Comprehensive Repository Directory & File System Index
+- **Action**: Fully indexed all repository directories (8) and files (41), mapping structural hierarchy and defining the functional responsibility of each component.
+- **Directory Structure & Purpose**:
+  - `.forgejo/`: Forgejo / Codeberg platform repository configuration.
+  - `.forgejo/workflows/`: Forgejo Actions workflows automating CI/CD on Codeberg mirror.
+  - `.github/`: GitHub platform repository configuration and community templates.
+  - `.github/workflows/`: GitHub Actions CI/CD workflows for builds, releases, and tests.
+  - `components/`: Reusable UI components and design system elements.
+  - `pages/`: Repository directory component: `pages`.
+  - `public/`: Publicly served static web assets and media files.
+  - `styles/`: Global stylesheets, CSS design tokens, and styling directives.
+- **File System Manifest & Functional Roles**:
+  - `.dockerignore`: Repository asset file: `.dockerignore`.
+  - `.editorconfig`: Editor configuration standardizing indentation, character encoding, and whitespace handling.
+  - `.forgejo/workflows/pages.yml`: Automated CI/CD workflow (`Deploy Codeberg Pages`) managing pipeline stages, builds, tests, or releases.
+  - `.github/workflows/deploy.yml`: Automated CI/CD workflow (`Deploy to GitHub Pages`) managing pipeline stages, builds, tests, or releases.
+  - `.gitignore`: Git exclusion specifications ignoring build artifacts, local secrets, and IDE temporary caches.
+  - `.gitlab-ci.yml`: GitLab CI/CD automated pipeline specification for test execution and mirror synchronization.
+  - `components/CodeiumFooter.js`: Exports `CodeiumFooter` providing functional logic or interactive component behavior.
+  - `docker-compose.yml`: Repository asset file: `docker-compose.yml`.
+  - `Dockerfile`: Repository asset file: `Dockerfile`.
+  - `LICENSE`: Open-source software license defining terms of use, distribution, and attribution.
+  - `next.config.js`: Next.js framework configuration for bundling, image optimization, and headers.
+  - `nginx.conf`: Repository asset file: `nginx.conf`.
+  - `package-lock.json`: Deterministic dependency lockfile for Node.js package resolutions.
+  - `package.json`: Node.js package manifest defining dependencies, build scripts, and engine compatibility.
+  - `pages/_app.js`: JavaScript execution script or utility module.
+  - `pages/_document.js`: Exports `MyDocument` providing functional logic or interactive component behavior.
+  - `pages/index.js`: Exports `Home` providing functional logic or interactive component behavior.
+  - `public/android-chrome-192x192.png`: Raster graphic image or icon asset used in application UI or documentation.
+  - `public/android-chrome-512x512.png`: Raster graphic image or icon asset used in application UI or documentation.
+  - `public/apple-touch-icon.png`: Raster graphic image or icon asset used in application UI or documentation.
+  - `public/browserconfig.xml`: Android XML layout, value dictionary, or system configuration definition.
+  - `public/close.svg`: Scalable vector graphic resource for UI iconography and branding.
+  - `public/download-circular-button.svg`: Scalable vector graphic resource for UI iconography and branding.
+  - `public/favicon-16x16.png`: Raster graphic image or icon asset used in application UI or documentation.
+  - `public/favicon-32x32.png`: Raster graphic image or icon asset used in application UI or documentation.
+  - `public/favicon.ico`: Raster graphic image or icon asset used in application UI or documentation.
+  - `public/github.svg`: Scalable vector graphic resource for UI iconography and branding.
+  - `public/mstile-144x144.png`: Raster graphic image or icon asset used in application UI or documentation.
+  - `public/mstile-150x150.png`: Raster graphic image or icon asset used in application UI or documentation.
+  - `public/mstile-310x150.png`: Raster graphic image or icon asset used in application UI or documentation.
+  - `public/mstile-310x310.png`: Raster graphic image or icon asset used in application UI or documentation.
+  - `public/mstile-70x70.png`: Raster graphic image or icon asset used in application UI or documentation.
+  - `public/plus.svg`: Scalable vector graphic resource for UI iconography and branding.
+  - `public/site.webmanifest`: Repository asset file: `site.webmanifest`.
+  - `public/thumbnail-cover@2x.png`: Raster graphic image or icon asset used in application UI or documentation.
+  - `README.md`: Repository documentation, architectural overview, usage instructions, and downstream integration guidelines.
+  - `styles/globals.css`: Cascading Style Sheet defining presentation rules and visual styling.
+  - `styles/Home.module.css`: Cascading Style Sheet defining presentation rules and visual styling.
+  - `vd.zip`: Compressed archive artifact.
+  - `vercel.json`: JSON data configuration or metadata dictionary.
+  - `Version.md`: Permanent, immutable project ledger tracking historical changelogs, architecture evolution, and component manifests.
+- **Status**: 100% (Completed & Verified across repository)
+
+
+## [2026-11-21 17:15:00 IST] - Live Bidirectional Vice-Versa Conversion Engine (SVG ⇄ Android Vector XML)
+- **Author**: junksidetm
+- **Status**: 100% (Completed & Verified)
+- **Objective**: Implement bidirectional live conversion capability between SVG and Android VectorDrawable XML.
+- **Components & Features Added**:
+  - `components/svg2vector.js`: Created autonomous client-side SVG to Android VectorDrawable `<vector>` converter operating via native `DOMParser`. Translates SVG paths, rects (with rounded `rx`/`ry`), circles, ellipses, polylines, lines, polygons, `<g>` groups, transforms, opacity, and color palettes into standard `<vector>` XML.
+  - `pages/index.js`:
+    - Integrated bidirectional file upload: `HiddenFileInput` and dropzone accept both `.xml` and `.svg`.
+    - Implemented automatic file type detection: Dropping an SVG converts it into Android VectorDrawable XML and renders live SVG preview; dropping Android Vector XML converts it to SVG.
+    - Added `⇄ Vice-Versa` toolbar button enabling instant live mode swapping between `Vector XML ➔ SVG` and `SVG ➔ Vector XML`.
+    - Added dual-format export in action bar: `Download SVG`, `Download XML`, `Copy SVG Code`, and `Copy Vector XML`.
+  - `styles/globals.css`: Added responsive styles for `.vd-action-grid`, `.vd-btn-xml`, `.vd-btn-swap`, and `.vd-toast-indicator`.
+  - `README.md`: Documented bidirectional vice-versa conversion features and updated attributions.
